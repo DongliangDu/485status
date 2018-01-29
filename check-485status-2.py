@@ -61,8 +61,7 @@ def main():
 			pass
 
 		case_status = getInfo(html_file,input_line)
-		if case_status:
-			dic[input_line] = case_status
+		dic[input_line] = case_status
 	
 	output_fh = open("output-casestatus", "w")
 	
